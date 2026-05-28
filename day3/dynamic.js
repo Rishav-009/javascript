@@ -20,6 +20,7 @@ function addTask(){
         let divv = document.createElement("div");
         divv.style.display ="flex";
         divv.style.gap= "10px";
+        divv.classList.add("taskItem");
         divv.append(li,del,done);
 
         
